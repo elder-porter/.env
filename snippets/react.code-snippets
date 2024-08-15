@@ -1,0 +1,40 @@
+{
+	"React TS Component": {
+		"prefix": "rbase",
+		"body": [
+		  "function ${1:component_name}() {",
+		  "\treturn (",
+		  "\t\t<div>",
+		  "\t\t\t${2:content}",
+		  "\t\t</div>",
+		  "\t)",
+		  "}",
+		  "",
+		  "export default ${1:component_name}"
+		],
+		"description": "Base React Component"
+	  },
+	
+	"React JS Component": {
+		"prefix": "basejrc",
+		"body": [
+		  "const ${1:component_name} = () => {",
+		  "\treturn (",
+		  "\t\t<div>",
+		  "\t\t\t${2:content}",
+		  "\t\t</div>",
+		  "\t)",
+		  "}",
+		  "",
+		  "export { ${1:component_name} }"
+		],
+		"description": "Base Javascript React Component"
+	  },
+	  "Uno Class": {
+		"prefix": "ucla",
+		"body": [
+		  "className=\":uno: ${1:class}\""
+		],
+		"description": "Uno Classname"
+	  }
+}
